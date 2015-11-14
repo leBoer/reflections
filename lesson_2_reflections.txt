@@ -1,0 +1,10 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+	When you initialize a repository, you instruct Git to start tracking the commits from that folder.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+	
+	The staging area works like an air lock towards your actual repository. You place your changed files there,
+	and write up what the changes are. If the changes do not make up one logical commit, 
+	you are given the option to remove them from the staging area. The value would be that it
+	forces you to think through the logic of committing to a change.
