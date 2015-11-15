@@ -8,3 +8,32 @@ Q: How is the staging area different from the working directory and the reposito
 	and write up what the changes are. If the changes do not make up one logical commit, 
 	you are given the option to remove them from the staging area. The value would be that it
 	forces you to think through the logic of committing to a change.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+	
+	Since you have to formulate the change that has been made when you commit, it "encourage"
+	you to not include more than one logical change per commit.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	If you are working on a new feature set, it can be beneficial to make a new branch,
+	so that you do not "disturb" the master branch. If something goes wrong with the new
+	branch, you can just switch over to the master branch. If the new feature set is
+	successful, you can merge it with the master branch.
+
+Q: How do the diagrams help you visualize the branch structure?
+
+	The diagram helps visualize what branches (or features) will be part of any given branch.
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	When merging branches right, it will create one common branch that includes the features
+	 from both branches. We represent them te way we do because it indicates where the tip of
+	 the new branch is. It does not make sense to continue to work on a branch that has been merged. 
+	 Instead you would create a completely new branch for the new feature.
+
+Q: What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+	The good thing about automatic merging is that it can be quite fast. Especially when a feature is added. 
+	However, there might be a lot of editing to fix quite obvious merging problems. 
+	I also think this concept is a bit confusing. Which branch is merging into what branch?
