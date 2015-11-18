@@ -1,3 +1,34 @@
 Q: When would you want to use a remote repository rather than keeping all your work local?
 
-  When you collaborate with someone, want a backup, or are working from multiple computers.
+	When you collaborate with someone, want a backup, or are working from multiple computers.
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay 
+up-to-date with your remote repository?
+
+	Because I might work on something that contradicts something that someone else is working on. 
+	This also enables us to work for extended periods of time offline.
+
+Q: Describe the differences between forks, clones and branches. When would you use one instaed of another?
+
+	A fork is used when I want to continue to develop a repository without influencing the 
+	original (I make it my own). A clone is when I clone  repository from a remote (github) to a local.
+	A branch is when I'm working on a repository, but want to take it in another direction, 
+	with the intent of either testing something, or finally merging it into the master branch.
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	Some times, you would like to continue to work on the latest version. So if someone has 
+	contributed to the master branch, it is a good idea to work from that (or merge into that branch)
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	I would probably use a service like dropbox. Barrier of entry would be much lower. 
+	However, it would make version control, and especially merging of versions, a nightmare.
+
+Q: When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have? 
+
+	You would make changes in a separate branch when you are trying out a new feature. 
+	Or when several people are working on the same project. You could chose to make all significant
+	changes in a separate branch. The benefit is that the master will stay "production quality".
+	Working directly on the master can be faster, but only is a more risky approach.
